@@ -16,7 +16,7 @@ var base = function()
 {
     var node=
     document.createElement ("h2");
-    node.innerText="You try to open the door, but the window was locked, you even try to pick the lock, but you are not smart enough. You hear someone coming towards your room, you hide in the closet. Click text to see what happens next.";
+    node.innerText="You try to open the door, but the door was locked, you even try to pick the lock, but you are not smart enough. You hear someone coming towards your room, you hide in the closet. Click text to see what happens next.";
     
     node.setAttribute("onclick","goAway()");
     var body=
